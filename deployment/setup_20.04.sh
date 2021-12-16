@@ -19,12 +19,6 @@ exit 1
 fi
 fi
 
-read -p 'Would you like to install postgres and redis?(Answer no if you plan to use external services): ' install_pg_redis
-
-if [ $install_pg_redis == "no" ]
-then
-echo "***** Skipping pg and redis installation. ****"
-fi
 
 apt update && apt upgrade -y
 apt install -y curl
@@ -37,14 +31,9 @@ apt install -y \
     git software-properties-common imagemagick libpq-dev \
     libxml2-dev libxslt1-dev file g++ gcc autoconf build-essential \
     libssl-dev libyaml-dev libreadline-dev gnupg2 \
-    postgresql-client redis-tools \
     nodejs yarn patch ruby-dev zlib1g-dev liblzma-dev \
     libgmp-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev
 
-if [ $install_pg_redis != "no" ]
-then
-apt install -y postgresql postgresql-contrib redis-server
-fi
 
 if [ $configure_webserver == "yes" ]
 then
@@ -58,25 +47,6 @@ gpg2 --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A170311
 curl -sSL https://get.rvm.io | bash -s stable
 adduser chatwoot rvm
 
-if [ $install_pg_redis != "no" ]
-then
-pg_pass=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15 ; echo '')
-sudo -i -u postgres psql << EOF
-\set pass `echo $pg_pass`
-CREATE USER chatwoot CREATEDB;
-ALTER USER chatwoot PASSWORD :'pass';
-ALTER ROLE chatwoot SUPERUSER;
-UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
-DROP DATABASE template1;
-CREATE DATABASE template1 WITH TEMPLATE = template0 ENCODING = 'UNICODE';
-UPDATE pg_database SET datistemplate = TRUE WHERE datname = 'template1';
-\c template1
-VACUUM FREEZE;
-EOF
-
-systemctl enable redis-server.service
-systemctl enable postgresql
-fi
 
 secret=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 63 ; echo '')
 RAILS_ENV=production
