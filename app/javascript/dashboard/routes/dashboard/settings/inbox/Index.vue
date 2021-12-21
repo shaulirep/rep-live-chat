@@ -36,9 +36,9 @@
                 <span v-if="item.channel_type === 'Channel::FacebookPage'">
                   Facebook
                 </span>
-                <span v-if="item.channel_type === 'Channel::WebWidget'">
+                <!-- <span v-if="item.channel_type === 'Channel::WebWidget'">
                   Website
-                </span>
+                </span> -->
                 <span v-if="item.channel_type === 'Channel::TwitterProfile'">
                   Twitter
                 </span>
