@@ -5,7 +5,7 @@
 # Script Version: 0.7
 # Run this script as root
 
-
+sudo su
 apt update && apt upgrade -y
 apt install -y curl
 curl -sL https://deb.nodesource.com/setup_12.x | bash -
