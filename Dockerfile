@@ -14,7 +14,6 @@ USER docker
 
 RUN wget https://raw.githubusercontent.com/shaulirep/rep-live-chat/master/deployment/setup_20.04_for_docker.sh -O setup.sh
 RUN chmod 755 setup.sh
-RUN sudo su
 RUN ./setup.sh master
 
 
