@@ -139,7 +139,7 @@ export default {
 
   .button {
     margin-left: var(--space-small);
-    height: 3.2rem;
+    // height: 3.2rem;
     right: var(--space-smaller);
     position: absolute;
     padding: 0 var(--space-small);

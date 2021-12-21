@@ -136,8 +136,8 @@ export default {
   margin: 0;
 
   .button {
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-medium);
+    // font-size: var(--font-size-small);
+    // font-weight: var(--font-weight-medium);
     padding: var(--space-one) var(--space-normal);
     margin: 0;
     position: relative;

@@ -46,13 +46,13 @@ const common = accountId => ({
       toState: frontendURL(`accounts/${accountId}/reports`),
       toStateName: 'settings_account_reports',
     },
-    campaigns: {
-      icon: 'ion-speakerphone',
-      label: 'CAMPAIGNS',
-      hasSubMenu: false,
-      toState: frontendURL(`accounts/${accountId}/campaigns`),
-      toStateName: 'settings_account_campaigns',
-    },
+    // campaigns: {
+    //   icon: 'ion-speakerphone',
+    //   label: 'CAMPAIGNS',
+    //   hasSubMenu: false,
+    //   toState: frontendURL(`accounts/${accountId}/campaigns`),
+    //   toStateName: 'settings_account_campaigns',
+    // },
     settings: {
       icon: 'ion-settings',
       label: 'SETTINGS',

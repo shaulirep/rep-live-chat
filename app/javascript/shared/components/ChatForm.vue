@@ -199,9 +199,9 @@ export default {
     padding-right: 2.4rem;
   }
 
-  .button {
-    font-size: $font-size-default;
-  }
+  // .button {
+  //   font-size: $font-size-default;
+  // }
 
   .error-message {
     display: none;

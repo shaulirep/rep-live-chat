@@ -164,7 +164,7 @@ export default {
   right: var(--space-normal);
   top: 3.6rem;
   font-size: var(--font-size-big);
-  color: var(--s-500);
+  color: var(--w-500);
   z-index: 1;
 
   .close-icon {

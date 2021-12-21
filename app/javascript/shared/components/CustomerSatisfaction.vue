@@ -195,10 +195,10 @@ export default {
 
     .button {
       appearance: none;
-      border-bottom-left-radius: 0;
-      border-top-left-radius: 0;
-      border-bottom-right-radius: $space-small;
-      font-size: $font-size-large;
+      // border-bottom-left-radius: 0;
+      // border-top-left-radius: 0;
+      // border-bottom-right-radius: $space-small;
+      // font-size: $font-size-large;
       height: auto;
       margin-left: -1px;
 

@@ -89,9 +89,9 @@ export default {
   align-items: center;
 
   .button {
-    font-size: var(--font-size-large);
+    // font-size: var(--font-size-large);
     margin-right: var(--space-small);
-    border-color: var(--color-border);
+    // border-color: var(--color-border);
     color: var(--s-400);
   }
 }
