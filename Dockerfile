@@ -6,4 +6,3 @@ RUN sudo ./setup.sh master
 
 
 EXPOSE 3000
-EXPOSE 3035
