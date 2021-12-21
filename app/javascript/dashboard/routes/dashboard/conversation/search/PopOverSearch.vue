@@ -171,7 +171,7 @@ export default {
 }
 
 .search--icon {
-  color: var(--s-600);
+  color: var(--w-500);
   font-size: var(--font-size-large);
   padding: 0 var(--space-small) 0 0;
 }

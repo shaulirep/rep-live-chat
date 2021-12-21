@@ -69,7 +69,7 @@ export default {
   .button {
     padding: 0;
     margin: 0;
-    color: $color-primary-light;
+    // color: $color-primary-light;
   }
 
   .meta {

@@ -37,15 +37,15 @@ export default {
       text-align: left;
       white-space: nowrap;
       display: inline-flex;
-      border-radius: var(--border-radius-normal);
+      // border-radius: var(--border-radius-normal);
 
-      &:hover {
-        background: var(--color-background);
-      }
+      // &:hover {
+      //   background: var(--color-background);
+      // }
 
-      &:focus {
-        background: var(--color-background);
-      }
+      // &:focus {
+      //   background: var(--color-background);
+      // }
     }
   }
 }

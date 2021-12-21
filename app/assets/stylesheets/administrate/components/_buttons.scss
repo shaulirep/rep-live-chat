@@ -4,9 +4,9 @@ input[type="reset"],
 input[type="submit"],
 .button {
   appearance: none;
-  background-color: $color-woot;
+  background: linear-gradient(89.17deg, #874DF2 0%, #3C7EF5 100%);;
   border: 0;
-  border-radius: $base-border-radius;
+  // border-radius: $base-border-radius;
   color: $white;
   cursor: pointer;
   display: inline-block;
@@ -20,9 +20,10 @@ input[type="submit"],
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-
+  height: 34px;
+  border-radius: 100px;
   &:hover {
-    background-color: mix($black, $color-woot, 20%);
+    background: linear-gradient(89.17deg, #9769F4 0%, #5D8FF7 100%);
     color: $white;
   }
 
@@ -33,11 +34,12 @@ input[type="submit"],
 
   &:disabled {
     cursor: not-allowed;
-    opacity: 0.5;
-
-    &:hover {
-      background-color: $color-woot;
-    }
+    pointer-events: none;
+    background: #EEEEF6;
+    color: #9294AE;
+    // &:hover {
+    //   background-color: $color-woot;
+    // }
   }
 }
 
