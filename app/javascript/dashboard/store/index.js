@@ -4,7 +4,7 @@ import Vuex from 'vuex';
 import accounts from './modules/accounts';
 import agents from './modules/agents';
 import auth from './modules/auth';
-import campaigns from './modules/campaigns';
+// import campaigns from './modules/campaigns';
 import cannedResponse from './modules/cannedResponse';
 import contactConversations from './modules/contactConversations';
 import contactLabels from './modules/contactLabels';
@@ -38,7 +38,7 @@ export default new Vuex.Store({
     accounts,
     agents,
     auth,
-    campaigns,
+    // campaigns,
     cannedResponse,
     contactConversations,
     contactLabels,

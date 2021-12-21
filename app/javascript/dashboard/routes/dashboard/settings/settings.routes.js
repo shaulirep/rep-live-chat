@@ -8,7 +8,7 @@ import integrationapps from './integrationapps/integrations.routes';
 import labels from './labels/labels.routes';
 import profile from './profile/profile.routes';
 import reports from './reports/reports.routes';
-import campaigns from './campaigns/campaigns.routes';
+// import campaigns from './campaigns/campaigns.routes';
 import teams from './teams/teams.routes';
 import attributes from './attributes/attributes.routes';
 import store from '../../../store';
@@ -35,7 +35,7 @@ export default {
     ...profile.routes,
     ...reports.routes,
     ...teams.routes,
-    ...campaigns.routes,
+    // ...campaigns.routes,
     ...integrationapps.routes,
     ...attributes.routes,
   ],
