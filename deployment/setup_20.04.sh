@@ -42,7 +42,7 @@ rvm use 3.0.2 --default
 git clone https://github.com/shaulirep/rep-live-chat.git
 cd /home/chatwoot/rep-live-chat
 if [[ -z "$1" ]]; then
-git checkout master;
+git checkout develop;
 else
 git checkout $1;
 fi
