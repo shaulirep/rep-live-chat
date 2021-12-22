@@ -111,10 +111,10 @@ export default {
   }
 
   .button {
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    font-size: $font-size-large;
-    height: auto;
+    // border-bottom-left-radius: 0;
+    // border-top-left-radius: 0;
+    // font-size: $font-size-large;
+    // height: auto;
     margin-left: -1px;
 
     .spinner {

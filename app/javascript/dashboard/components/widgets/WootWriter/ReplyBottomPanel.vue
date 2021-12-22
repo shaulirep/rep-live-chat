@@ -223,9 +223,9 @@ export default {
   label {
     cursor: pointer;
   }
-  &:hover .button {
-    background: var(--s-100);
-  }
+  // &:hover .button {
+  //   background: var(--s-100);
+  // }
 }
 
 .modal-mask {
