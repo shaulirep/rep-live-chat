@@ -360,9 +360,9 @@ export default {
       .text-block-title {
         color: #3c4858;
       }
-      .download.button {
-        color: var(--w-400);
-      }
+      // .download.button {
+      //   color: var(--w-400);
+      // }
     }
 
     &.is-private.is-text > .message-text__wrap .link {

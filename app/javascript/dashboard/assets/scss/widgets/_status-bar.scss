@@ -20,21 +20,21 @@
   &.danger {
     background: lighten($alert-color, 30%);
 
-    .button {
-      // Default and disabled states
-      &,
-      &.disabled, &[disabled],
-      &.disabled:hover, &[disabled]:hover,
-      &.disabled:focus, &[disabled]:focus {
-        background-color: $alert-color;
-        color: $color-white;
-      }
+    // .button {
+    //   // Default and disabled states
+    //   &,
+    //   &.disabled, &[disabled],
+    //   &.disabled:hover, &[disabled]:hover,
+    //   &.disabled:focus, &[disabled]:focus {
+    //     background-color: $alert-color;
+    //     color: $color-white;
+    //   }
 
-      &:hover, &:focus {
-        background-color: darken($alert-color, 7%);
-        color: $color-white;
-      }
-    }
+    //   &:hover, &:focus {
+    //     background-color: darken($alert-color, 7%);
+    //     color: $color-white;
+    //   }
+    // }
   }
 
   &.warning {
