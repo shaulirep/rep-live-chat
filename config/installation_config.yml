@@ -3,13 +3,13 @@
 - name: INSTALLATION_NAME
   value: 'Rep Live'
 - name: LOGO_THUMBNAIL
-  value: '/brand-assets/logo_thumbnail.svg'
+  value: 'https://d36vbr8l8uc1ea.cloudfront.net/live-chat/logo_thumbnail.svg'
 - name: LOGO
-  value: '/brand-assets/logo.svg'
+  value: 'https://d36vbr8l8uc1ea.cloudfront.net/live-chat/logo.svg'
 - name: BRAND_URL
-  value: 'https://www.chatwoot.com'
+  value: 'https://hellorep.ai/'
 - name: WIDGET_BRAND_URL
-  value: 'https://www.chatwoot.com'
+  value: 'https://hellorep.ai/'
 - name: BRAND_NAME
   value: 'Rep Live'
 - name: TERMS_URL
