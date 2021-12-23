@@ -13,9 +13,9 @@
 - name: BRAND_NAME
   value: 'Rep Live'
 - name: TERMS_URL
-  value: 'https://hellorep.ai/terms-and-conditions'
+  value: 'https://www.hellorep.ai/saas-agreement'
 - name: PRIVACY_URL
-  value: 'https://hellorep.ai/privacy-policy/'
+  value: 'https://www.hellorep.ai/privacy-policy'
 - name: DISPLAY_MANIFEST
   value: true
 - name: MAILER_INBOUND_EMAIL_DOMAIN
