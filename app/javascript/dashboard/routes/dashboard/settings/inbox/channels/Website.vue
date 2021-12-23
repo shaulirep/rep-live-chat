@@ -23,7 +23,7 @@
           />
         </label>
       </div>
-      <div class="medium-12 columns">
+      <!-- <div class="medium-12 columns">
         <label>
           {{ $t('INBOX_MGMT.ADD.WEBSITE_CHANNEL.CHANNEL_DOMAIN.LABEL') }}
           <input
@@ -34,7 +34,7 @@
             "
           />
         </label>
-      </div>
+      </div> -->
 
       <div class="medium-12 columns">
         <label>
