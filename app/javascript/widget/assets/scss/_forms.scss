@@ -4,7 +4,8 @@ $input-height: $space-two * 2;
 
 .form-input {
   @include placeholder {
-    color: $color-gray;
+    // color: $color-gray;
+    color: rgba($color: $black, $alpha: 0.5);
   }
 
   appearance: none;
@@ -33,7 +34,9 @@ $input-height: $space-two * 2;
   }
 
   &::placeholder {
-    color: $color-gray;
+    // color: $color-gray;
+    color: rgba($color: $black, $alpha: 0.5);
+
   }
 
   // Input sizes
@@ -72,7 +75,9 @@ textarea.form-input {
   font-family: $font-family;
 
   @include placeholder {
-    color: $color-light-gray;
+    // color: $color-light-gray;
+    color: rgba($color: $black, $alpha: 0.5);
+
   }
 
   &,

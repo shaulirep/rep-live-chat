@@ -44,7 +44,7 @@
   &:hover,
   &:focus {
     a {
-      color: darken($medium-gray, 20%);
+      color: $dark-blue;
     }
   }
 
@@ -52,7 +52,7 @@
     @include position(relative, 1px null null null);
     align-items: center;
     border-bottom: 2px solid transparent;
-    color: $medium-gray;
+    color: $blue;
     display: flex;
     flex-direction: row;
     font-size: $font-size-small;
