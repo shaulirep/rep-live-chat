@@ -25,9 +25,9 @@ RAILS_ENV=production bundle exec rake db:migrate
 exit
 
 # Copy the updated targets
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot-web.1.service /etc/systemd/system/chatwoot-web.1.service
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot-worker.1.service /etc/systemd/system/chatwoot-worker.1.service
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot-web.1.service /etc/systemd/system/chatwoot-web.1.service
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot-worker.1.service /etc/systemd/system/chatwoot-worker.1.service
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
 
 # Restart the chatwoot server
-systemctl restart chatwoot.target
+sudo systemctl restart chatwoot.target
