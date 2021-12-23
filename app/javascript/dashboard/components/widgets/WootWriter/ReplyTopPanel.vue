@@ -182,7 +182,7 @@ export default {
     color: var(--r-600);
   }
   .message-length {
-    color: var(--s-600);
+    color: var(--w-500);
   }
 }
 </style>

@@ -82,7 +82,7 @@ $label-badge-size: var(--space-slab);
 
 .menu-item {
   display: inline-flex;
-  color: var(--s-600);
+  color: var(--w-500);
   font-weight: var(--font-weight-medium);
   width: 100%;
   height: var(--space-medium);
@@ -92,7 +92,6 @@ $label-badge-size: var(--space-slab);
 
   &:hover {
     background: var(--s-25);
-    color: var(--s-600);
   }
 
   &:focus {
@@ -139,7 +138,7 @@ $label-badge-size: var(--space-slab);
 .badge.secondary {
   min-width: unset;
   background: var(--s-75);
-  color: var(--s-600);
+  color: var(--s-500);
   font-weight: var(--font-weight-bold);
 }
 </style>

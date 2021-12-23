@@ -229,13 +229,13 @@ export default {
 }
 
 .modal-mask {
-  color: var(--s-600);
+  color: var(--w-500);
   background: var(--white-transparent);
   flex-direction: column;
 }
 
 .page-sub-title {
-  color: var(--s-600);
+  color: var(--w-500);
 }
 
 .icon {

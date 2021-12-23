@@ -49,11 +49,11 @@ export default {
   position: relative;
   border-radius: var(--border-radius-large);
   border: 1px solid transparent;
-  color: var(--s-600);
+  color: var(--w-500);
 
   &:hover {
     background: var(--w-25);
-    color: var(--s-600);
+    color: var(--w-500);
   }
 
   &:focus {

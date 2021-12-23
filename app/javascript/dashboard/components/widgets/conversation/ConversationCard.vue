@@ -284,7 +284,7 @@ export default {
 }
 
 .last-message-icon {
-  color: var(--s-600);
+  color: var(--w-500);
 }
 
 .conversation--metadata {
@@ -294,7 +294,7 @@ export default {
 
   .label {
     background: none;
-    color: var(--s-500);
+    color: var(--w-500);
     font-size: var(--font-size-mini);
     font-weight: var(--font-weight-medium);
     line-height: var(--space-slab);

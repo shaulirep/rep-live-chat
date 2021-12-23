@@ -42,8 +42,8 @@ $woot-logo-padding: $space-large $space-two;
 
 // Colors
 $color-woot: #3B3A8F;
-$color-gray: #6e6f73;
-$color-light-gray: #999a9b;
+$color-gray: #9294AE;
+$color-light-gray: #9294AE;
 
 $color-border: var(--s-75);
 $color-border-light: var(--s-50);
@@ -53,21 +53,21 @@ $color-background: var(--s-50);
 $color-background-light: var(--s-25);
 
 $color-white: #fff;
-$color-body: #3c4858;
-$color-heading: #1f2d3d;
+$color-body: #000;
+$color-heading: #000;
 $color-extra-light-blue: #f5f7f9;
 
 $primary-color: $color-woot;
-$secondary-color: #5d7592;
-$success-color: #44ce4b;
-$warning-color: #ffc532;
+$secondary-color: #9294AE;
+$success-color: #00B58F;
+$warning-color: #FFCE62;
 $alert-color: #ff382d;
 
 $masked-bg: rgba(0, 0, 0, .4);
 
 // Color-palettes
 
-$color-primary-light: #c7e3ff;
+$color-primary-light: #9294AE;
 $color-primary-dark: darken($color-woot, 20%);
 
 // Thumbnail
@@ -87,8 +87,8 @@ $spinkit-spinner-margin: 0 0 0 1.6rem !default;
 $spinkit-size: 1.6rem !default;
 
 // Snackbar default
-$woot-snackbar-bg: #323232;
-$woot-snackbar-button: #ffeb3b;
+$woot-snackbar-bg: #1C1D48;
+$woot-snackbar-button: #FFCE62;
 
 $swift-ease-out-duration: .4s !default;
 $swift-ease-out-function: cubic-bezier(0.37, 0, 0.63, 1) !default;

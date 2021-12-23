@@ -26,7 +26,7 @@ export default {
     padding: var(--space-small) var(--space-small);
     margin-top: var(--space-smaller);
     font-size: var(--font-size-mini);
-    color: var(--s-600);
+    color: var(--w-500);
     font-weight: var(--font-weight-medium);
     border-radius: var(--border-radius-normal);
   }

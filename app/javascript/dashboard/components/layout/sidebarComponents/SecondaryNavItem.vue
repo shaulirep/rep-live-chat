@@ -116,7 +116,7 @@ export default {
 }
 
 .secondary-menu--title {
-  color: var(--s-600);
+  color: var(--w-500);
   display: flex;
   font-weight: var(--font-weight-bold);
   line-height: var(--space-two);
@@ -134,7 +134,7 @@ export default {
 
   &:hover {
     background: var(--s-25);
-    color: var(--s-600);
+    color: var(--w-500);
   }
 
   &:focus {
@@ -155,7 +155,7 @@ export default {
 }
 
 .sub-menu-link {
-  color: var(--s-600);
+  color: var(--s-500);
 }
 
 .wrap {
