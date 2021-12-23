@@ -30,4 +30,5 @@ sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot-worker.1.service /etc/s
 sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
 
 # Restart the chatwoot server
+sudo systemctl daemon-reload
 sudo systemctl restart chatwoot.target
