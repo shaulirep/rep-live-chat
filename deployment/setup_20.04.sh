@@ -62,6 +62,7 @@ sed -i -e '/RAILS_ENV/ s/=.*/=$RAILS_ENV/' .env
 echo -en "\nINSTALLATION_ENV=linux_script" >> ".env"
 
 gem install bundler:2.2.25
+cd /home/chatwoot/rep-live-chat
 rake assets:precompile RAILS_ENV=production
 EOF
 
