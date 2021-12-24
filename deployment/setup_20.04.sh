@@ -33,6 +33,9 @@ adduser chatwoot rvm
 secret=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 63 ; echo '')
 RAILS_ENV=production
 
+sudo mkdir /home/chatwoot
+sudo chown chatwoot /home/chatwoot
+
 sudo -i -u chatwoot << EOF
 rvm --version
 rvm autolibs disable
