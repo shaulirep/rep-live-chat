@@ -5,7 +5,7 @@
 }
 
 .navigation {
-  background: $white;
+  background: #fff;
   border-right: 1px solid $color-border;
   display: flex;
   flex-direction: column;
@@ -47,10 +47,10 @@
   padding: $space-one;
 
   &:hover {
-    color: $blue;
+    color: #3B3A8F;
 
     a {
-      color: $blue;
+      color: #3B3A8F;
     }
   }
 
@@ -58,10 +58,10 @@
   &.navigation__link--active {
     background-color: $color-background;
     border-radius: $base-border-radius;
-    color: $blue;
+    color: #3B3A8F;
 
     a {
-      color: $blue;
+      color: #3B3A8F;
     }
   }
 }

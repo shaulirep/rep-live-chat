@@ -7,7 +7,7 @@ input[type="submit"],
   background: linear-gradient(89.17deg, #874DF2 0%, #3C7EF5 100%);
   border: 0;
   border-radius: $base-border-radius;
-  color: $white;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: $font-size-default;
@@ -24,7 +24,7 @@ input[type="submit"],
   border-radius: 100px;
   &:hover {
     background: linear-gradient(89.17deg, #9769F4 0%, #5D8FF7 100%);
-    color: $white;
+    color: #fff;
   }
 
   &:focus {
@@ -48,7 +48,7 @@ input[type="submit"],
 .button--alt {
   background-color: transparent;
   border: $base-border;
-  border-color: $blue;
-  color: $blue;
+  border-color: #3B3A8F;
+  color: #3B3A8F;
   margin-bottom: $base-spacing;
 }

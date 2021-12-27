@@ -170,7 +170,7 @@
 
     .bubble {
       @include border-normal;
-      background: $white;
+      background: #fff;
       border-bottom-left-radius: $space-smaller;
       border-top-left-radius: $space-smaller;
       color: $color-body;

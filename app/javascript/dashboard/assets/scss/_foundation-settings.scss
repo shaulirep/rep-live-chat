@@ -59,7 +59,7 @@ $dark-blue: #1C1D48;
 $dark-gray: $color-gray;
 $black: #000;
 $white: #fff;
-$body-background: $white;
+$body-background: #fff;
 $body-font-color: $color-body;
 $body-font-family: 'Inter',
 -apple-system,
@@ -195,13 +195,13 @@ $input-error-font-weight: $global-weight-bold;
 // 7. Accordion
 // ------------
 
-$accordion-background: $white;
+$accordion-background: #fff;
 $accordion-plusminus: true;
 $accordion-title-font-size: rem-calc(12);
 $accordion-item-color: $primary-color;
 $accordion-item-background-hover: $light-gray;
 $accordion-item-padding: 1.25rem 1rem;
-$accordion-content-background: $white;
+$accordion-content-background: #fff;
 $accordion-content-border: 1px solid $light-gray;
 $accordion-content-color: $body-font-color;
 $accordion-content-padding: 1rem;
@@ -217,7 +217,7 @@ $accordionmenu-arrow-size: 6px;
 // --------
 
 $badge-background: $primary-color;
-$badge-color: $white;
+$badge-color: #fff;
 $badge-color-alt: $black;
 $badge-palette: $foundation-palette;
 $badge-padding: var(--space-smaller);
@@ -244,8 +244,8 @@ $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
-$button-color: $white;
-$button-color-alt: $white;
+$button-color: #fff;
+$button-color-alt: #fff;
 $button-radius: var(--border-radius-normal);
 $button-sizes: (tiny: var(--font-size-micro),
   small: var(--font-size-mini),
@@ -270,7 +270,7 @@ $buttongroup-radius-on-each: false;
 // 13. Callout
 // -----------
 
-$callout-background: $white;
+$callout-background: #fff;
 $callout-background-fade: 85%;
 $callout-border: 1px solid rgba($black, 0.25);
 $callout-margin: 0 0 1rem 0;
@@ -283,7 +283,7 @@ $callout-link-tint: 30%;
 // 14. Card
 // --------
 
-$card-background: $white;
+$card-background: #fff;
 $card-font-color: $body-font-color;
 $card-divider-background: $light-gray;
 $card-border: 1px solid var(--color-border);
@@ -313,7 +313,7 @@ $drilldown-transition: transform 0.15s linear;
 $drilldown-arrows: true;
 $drilldown-arrow-color: $primary-color;
 $drilldown-arrow-size: 6px;
-$drilldown-background: $white;
+$drilldown-background: #fff;
 
 // 17. Dropdown
 // ------------
@@ -335,7 +335,7 @@ $dropdownmenu-arrows: true;
 $dropdownmenu-arrow-color: $anchor-color;
 $dropdownmenu-arrow-size: 6px;
 $dropdownmenu-min-width: 200px;
-$dropdownmenu-background: $white;
+$dropdownmenu-background: #fff;
 $dropdownmenu-border: 1px solid $medium-gray;
 
 // 19. Forms
@@ -357,7 +357,7 @@ $form-label-color: $color-body;
 $form-label-font-size: rem-calc(14);
 $form-label-font-weight: $font-weight-medium;
 $form-label-line-height: 1.8;
-$select-background: $white;
+$select-background: #fff;
 $select-triangle-color: $dark-gray;
 $select-radius: var(--border-radius-normal);
 $input-color: $color-body;
@@ -365,8 +365,8 @@ $input-placeholder-color: $light-gray;
 $input-font-family: inherit;
 $input-font-size: $font-size-default;
 $input-font-weight: $global-weight-normal;
-$input-background: $white;
-$input-background-focus: $white;
+$input-background: #fff;
+$input-background-focus: #fff;
 $input-background-disabled: $light-gray;
 $input-border: 1px solid $color-border;
 $input-border-focus: 1px solid lighten($primary-color, 15%);
@@ -382,7 +382,7 @@ $form-button-radius: var(--border-radius-normal);
 // ---------
 
 $label-background: $primary-color;
-$label-color: $white;
+$label-color: #fff;
 $label-color-alt: $black;
 $label-palette: $foundation-palette;
 $label-font-size: $font-size-mini;
@@ -402,7 +402,7 @@ $mediaobject-image-width-stacked: 100%;
 $menu-margin: 0;
 $menu-margin-nested: $space-medium;
 $menu-item-padding: $space-slab;
-$menu-item-color-active: $white;
+$menu-item-color-active: #fff;
 $menu-item-background-active: $color-background;
 $menu-icon-spacing: 0.25rem;
 $menu-item-background-hover: $light-gray;
@@ -464,7 +464,7 @@ $pagination-item-spacing: rem-calc(1);
 $pagination-radius: $global-radius;
 $pagination-item-background-hover: $light-gray;
 $pagination-item-background-current: $primary-color;
-$pagination-item-color-current: $white;
+$pagination-item-color-current: #fff;
 $pagination-item-color-disabled: $medium-gray;
 $pagination-ellipsis-color: $black;
 $pagination-mobile-items: false;
@@ -490,7 +490,7 @@ $responsive-embed-ratios: (default: 4 by 3,
 // 29. Reveal
 // ----------
 
-$reveal-background: $white;
+$reveal-background: #fff;
 $reveal-width: 600px;
 $reveal-max-width: $global-width;
 $reveal-padding: $global-padding;
@@ -524,7 +524,7 @@ $switch-height-small: $space-normal;
 $switch-height-large: $space-large;
 $switch-radius: $space-large;
 $switch-margin: $global-margin;
-$switch-paddle-background: $white;
+$switch-paddle-background: #fff;
 $switch-paddle-offset: $space-micro;
 $switch-paddle-radius: $space-large;
 $switch-paddle-transition: all 0.15s ease-out;
@@ -572,7 +572,7 @@ $tab-content-padding: 1rem;
 // 34. Thumbnail
 // -------------
 
-$thumbnail-border: solid 4px $white;
+$thumbnail-border: solid 4px #fff;
 $thumbnail-margin-bottom: $global-margin;
 $thumbnail-shadow: 0 0 0 1px rgba($black, 0.2);
 $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
@@ -583,10 +583,10 @@ $thumbnail-radius: $global-radius;
 // -------------
 
 $titlebar-background: $black;
-$titlebar-color: $white;
+$titlebar-color: #fff;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
-$titlebar-icon-color: $white;
+$titlebar-icon-color: #fff;
 $titlebar-icon-color-hover: $medium-gray;
 $titlebar-icon-spacing: 0.25rem;
 
@@ -596,7 +596,7 @@ $titlebar-icon-spacing: 0.25rem;
 $has-tip-font-weight: $global-weight-bold;
 $has-tip-border-bottom: dotted 1px $dark-gray;
 $tooltip-background-color: $black;
-$tooltip-color: $white;
+$tooltip-color: #fff;
 $tooltip-padding: 0.75rem;
 $tooltip-font-size: $font-size-mini;
 $tooltip-pip-width: 0.75rem;
