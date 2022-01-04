@@ -33,6 +33,9 @@ adduser chatwoot rvm
 secret=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 63 ; echo '')
 RAILS_ENV=production
 
+sudo mkdir /home/chatwoot
+sudo chown chatwoot /home/chatwoot
+
 sudo -i -u chatwoot << EOF
 rvm --version
 rvm autolibs disable
@@ -59,16 +62,17 @@ sed -i -e '/RAILS_ENV/ s/=.*/=$RAILS_ENV/' .env
 echo -en "\nINSTALLATION_ENV=linux_script" >> ".env"
 
 gem install bundler:2.2.25
+cd /home/chatwoot/rep-live-chat
 rake assets:precompile RAILS_ENV=production
 EOF
 
 
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot-web.1.service /etc/systemd/system/chatwoot-web.1.service
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot-worker.1.service /etc/systemd/system/chatwoot-worker.1.service
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot-web.1.service /etc/systemd/system/chatwoot-web.1.service
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot-worker.1.service /etc/systemd/system/chatwoot-worker.1.service
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
 
-systemctl enable chatwoot.target
-systemctl start chatwoot.target
+sudo systemctl enable chatwoot.target
+sudo systemctl start chatwoot.target
 
 public_ip=$(curl http://checkip.amazonaws.com -s)
 
