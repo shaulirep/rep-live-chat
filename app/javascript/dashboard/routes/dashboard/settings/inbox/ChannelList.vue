@@ -52,11 +52,11 @@ export default {
         { key: 'whatsapp', name: 'WhatsApp' },
         { key: 'sms', name: 'SMS via Twilio' },
         { key: 'email', name: 'Email' },
-        {
-          key: 'api',
-          name: apiChannelName || 'API',
-          thumbnail: apiChannelThumbnail,
-        },
+        // {
+        //   key: 'api',
+        //   name: apiChannelName || 'API',
+        //   thumbnail: apiChannelThumbnail,
+        // },
         { key: 'telegram', name: 'Telegram' },
         { key: 'line', name: 'Line' },
       ];
