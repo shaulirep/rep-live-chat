@@ -67,12 +67,12 @@ rake assets:precompile RAILS_ENV=production
 EOF
 
 
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot-web.1.service /etc/systemd/system/chatwoot-web.1.service
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot-worker.1.service /etc/systemd/system/chatwoot-worker.1.service
-cp /home/chatwoot/rep-live-chat/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot-web.1.service /etc/systemd/system/chatwoot-web.1.service
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot-worker.1.service /etc/systemd/system/chatwoot-worker.1.service
+sudo cp /home/chatwoot/rep-live-chat/deployment/chatwoot.target /etc/systemd/system/chatwoot.target
 
-systemctl enable chatwoot.target
-systemctl start chatwoot.target
+sudo systemctl enable chatwoot.target
+sudo systemctl start chatwoot.target
 
 public_ip=$(curl http://checkip.amazonaws.com -s)
 
