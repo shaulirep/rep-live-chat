@@ -68,10 +68,12 @@ export default {
         return false;
       }
       if (key === 'facebook') {
-        return this.enabledFeatures.channel_facebook;
+        return true;
+        // return this.enabledFeatures.channel_facebook;
       }
       if (key === 'twitter') {
-        return this.enabledFeatures.channel_twitter;
+        return true;
+        // return this.enabledFeatures.channel_twitter;
       }
       if (key === 'email') {
         return true;
