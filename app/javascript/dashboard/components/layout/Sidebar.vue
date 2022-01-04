@@ -194,7 +194,7 @@ export default {
 
 .secondary-menu {
   background: var(--white);
-  border-right: 1px solid var(--s-50);
+  border-right: 1px solid var(--s-200);
   height: 100vh;
   width: 19rem;
   flex-shrink: 0;
