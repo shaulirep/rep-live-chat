@@ -80,7 +80,7 @@ public_ip=$(curl http://checkip.amazonaws.com -s)
 echo -en "\n\n***************************************************************************\n"
 echo "Woot! Woot!! Chatwoot server installation is complete"
 echo "The server will be accessible at http://$public_ip:3000"
-echo "To configure a domain and SSL certificate, follow the guide at https://www.chatwoot.com/docs/deployment/deploy-chatwoot-in-linux-vm"
+echo "To configure a domain and SSL certificate, follow the guide at https://www.hellorep.ai/docs/deployment/deploy-chatwoot-in-linux-vm"
 echo "***************************************************************************"
 
 

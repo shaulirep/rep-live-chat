@@ -5,7 +5,7 @@ RSpec.describe SupportMailbox, type: :mailbox do
 
   describe 'when a chatwoot notification email is received' do
     let(:account) { create(:account) }
-    let!(:channel_email) { create(:channel_email, email: 'sojan@chatwoot.com', account: account) }
+    let!(:channel_email) { create(:channel_email, email: 'sojan@hellorep.ai', account: account) }
     let(:notification_mail) { create_inbound_email_from_fixture('notification.eml') }
     let(:described_subject) { described_class.receive notification_mail }
     let(:conversation) { Conversation.where(inbox_id: channel_email.inbox).last }
@@ -108,7 +108,7 @@ RSpec.describe SupportMailbox, type: :mailbox do
 
       before do
         # this email is hardcoded eml fixture file that's why we are updating this
-        channel_email.email = 'support@chatwoot.com'
+        channel_email.email = 'support@hellorep.ai'
         channel_email.save
       end
 
