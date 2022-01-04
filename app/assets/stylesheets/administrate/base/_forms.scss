@@ -48,7 +48,7 @@ textarea {
 input:not([type]),
 textarea {
   appearance: none;
-  background-color: $white;
+  background-color: #fff;
   border: $base-border;
   border-radius: $base-border-radius;
   padding: 0.5em;
@@ -56,7 +56,7 @@ textarea {
   width: 100%;
 
   // &:hover {
-  //   border-color: mix($black, $base-border-color, 20%);
+  //   border-color: mix(#000, $base-border-color, 20%);
   // }
 
   &:focus {
@@ -65,7 +65,7 @@ textarea {
   }
 
   &:disabled {
-    background-color: mix($black, $white, 5%);
+    background-color: mix(#000, $white, 5%);
     cursor: not-allowed;
 
     // &:hover {

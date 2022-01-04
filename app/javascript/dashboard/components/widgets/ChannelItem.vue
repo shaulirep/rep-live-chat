@@ -74,7 +74,8 @@ export default {
         return this.enabledFeatures.channel_twitter;
       }
       if (key === 'email') {
-        return this.enabledFeatures.channel_email;
+        return true;
+        // return this.enabledFeatures.channel_email;
       }
 
       return [
