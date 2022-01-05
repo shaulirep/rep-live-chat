@@ -33,6 +33,8 @@
 
     &::before {
       right: 0;
+      top: calc(50% + 3px);
+      transform: translateY(-50%);
     }
   }
 
