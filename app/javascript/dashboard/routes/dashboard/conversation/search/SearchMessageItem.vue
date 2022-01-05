@@ -150,7 +150,7 @@ p {
 }
 
 .message-content::v-deep .searchkey--highlight {
-  color: var(--w-600);
+  color: var(--w-500);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-small);
   padding: (var(--space-zero) var(--space-zero));
