@@ -35,7 +35,7 @@ export default {
     .button {
       width: 100%;
       text-align: left;
-      color: var(--s-700);
+      color: var(--white);
       white-space: nowrap;
       display: inline-flex;
       padding: var(--space-small);

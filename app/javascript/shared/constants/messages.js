@@ -42,6 +42,6 @@ export const CSAT_RATINGS = [
     key: 'smiling',
     emoji: '😍',
     value: 5,
-    color: '#44CE4B',
+    color: '#00B58F',
   },
 ];
