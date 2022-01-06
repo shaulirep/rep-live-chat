@@ -47,7 +47,7 @@
         "CUSTOM_EMAIL_DOMAIN_ENABLED": "Artık özel alan adınızda e-postalar alabilirsiniz."
       }
     },
-    "UPDATE_CHATWOOT": "%{latestChatwootVersion} chatwoot sürümü indirilebilir. Lütfen sürümü güncelleyin."
+    "UPDATE_CHATWOOT": "%{latestChatwootVersion} Rep Live sürümü indirilebilir. Lütfen sürümü güncelleyin."
   },
   "FORMS": {
     "MULTISELECT": {
@@ -78,7 +78,7 @@
   },
   "NETWORK": {
     "NOTIFICATION": {
-      "TEXT": "Disconnected from Chatwoot"
+      "TEXT": "Disconnected from Rep Live"
     },
     "BUTTON": {
       "REFRESH": "Refresh"
