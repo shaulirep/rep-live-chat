@@ -2,7 +2,11 @@
   "REGISTER": {
     "TRY_WOOT": "Registre uma conta",
     "TITLE": "Registrar",
+<<<<<<< HEAD
     "TERMS_ACCEPT": "Ao se inscrever, você concorda com nossa <a href=\"https://www.hellorep.ai/terms\">T & C</a> e <a href=\"https://www.hellorep.ai/privacy-policy\">Política de privacidade</a>",
+=======
+    "TERMS_ACCEPT": "Ao se inscrever, você concorda com nossa <a href=\"https://www.hellorep.ai/terms\">T & C</a> e <a href=\"https://www.hellorep.ai/privacy-policy\">Política de privacidade</a>",
+>>>>>>> 9e0fcdabd5a8ade5b7531746daa338ada54e288b
     "ACCOUNT_NAME": {
       "LABEL": "Nome da Conta",
       "PLACEHOLDER": "Digite um nome de conta, por exemplo: Wayne Enterprises",
