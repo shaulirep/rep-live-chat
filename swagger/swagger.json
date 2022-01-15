@@ -3,28 +3,17 @@
   "info": {
     "description": "This is the API documentation for Rep Live server.",
     "version": "1.0.0",
-<<<<<<< HEAD
-    "title": "Chatwoot",
-    "termsOfService": "https://www.hellorep.ai/terms-of-service/",
-    "contact": {
-      "email": "hello@hellorep.ai"
-=======
     "title": "Rep Live",
-    "termsOfService": "https://www.hellorep.ai/terms-of-service/",
+    "termsOfService": "https://www.Rep Live.com/terms-of-service/",
     "contact": {
-      "email": "hello@hellorep.ai"
->>>>>>> 9e0fcdabd5a8ade5b7531746daa338ada54e288b
+      "email": "suuport@hellorep.ai"
     },
     "license": {
       "name": "MIT License",
       "url": "https://opensource.org/licenses/MIT"
     }
   },
-<<<<<<< HEAD
-  "host": "app.hellorep.ai",
-=======
-  "host": "app.hellorep.ai",
->>>>>>> 9e0fcdabd5a8ade5b7531746daa338ada54e288b
+  "host": "live.hellorep.ai",
   "basePath": "/",
   "schemes": [
     "https"
